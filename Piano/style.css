@@ -1,0 +1,43 @@
+.piano{
+    width: 100%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.piano .position{
+    margin-top: 10%;
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+
+    background-color: #222222;
+}
+.keys{
+    background-color: brown;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.whitekey{
+    width: 11.5%;
+    height: 100%;
+    background: white;
+    border: solid;
+    border-color: black;
+    text-align: center;
+    text-align: center;
+    border-width: 1px;
+}
+.blackkey{
+    position: absolute;
+    background-color: black;
+    width: 4%;
+    height: 25%;
+    color: white;
+}
